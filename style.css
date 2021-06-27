@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Arial', sans-serif;
+}
+
+html, body{
+  display:grid;
+  place-items:center;
+  background: url('img/robot3.png');
+}
+p{
+  margin-left: 100px;
+  opacity: 0.7;
+}
+
+
+.ranges{
+  height: 50px;
+  width: 280px;
+  background:;
+  border-radius: 10px;
+  padding: 0 65px 0 45px;
+}
+
+.ranges .sliderValueA {
+  position:relative;
+  font-size:18px;
+  width:100%;
+  color: #fff;
+}
+
+
+.Butons{
+     width: 70%;
+    display: flex;
+    height: 150%;
+    float: left;
+    align-items: center;
+}
+.B1,.B2{
+    border: 1px solid #003399;
+    padding:15px;
+    color: black;
+    background: #0033ff;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-size: 15px;
+}
+.B1,.B2:hover{
+  border: 1px solid #003399;
+  padding:15px;
+  color: black;
+  background: #fff;
+  border-radius: 10px;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+
+
+
+.ranges .field {
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.ranges .field .value {
+  position:absolute;
+  font-size:18px;
+  font-weight:600;
+  color: #0033ff;
+}
+.ranges .field .value.left{
+  left: -85px;
+}
+.ranges .field .value.right{
+  right: -35px;
+}
+.ranges .field  input{
+  -webkit-appearance: none;
+  height:3px;
+  background:#000000;
+  border-radius: 5px;
+  outline:none;
+  border:none;
+  width:100%;
+}
